@@ -1,0 +1,6 @@
+"files": [
+  {
+    "source": "/src/i18n/ru_RU/*.json",
+    "translation": "/src/i18n/%locale_with_underscore%/%original_file_name%"
+  }
+]

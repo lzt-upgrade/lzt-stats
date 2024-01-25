@@ -1,0 +1,31 @@
+{
+  "name": "LZT Stats",
+  "description": "Detailed statistics of your activity",
+  "version": "2.0.0",
+  "author": "Toil",
+  "namespace": "lzt-stats1",
+  "license": "MIT",
+  "icon": "https://cdn.toil.cc/lztup/brand/logo-mini.png",
+  "updateURL": "https://github.com/lzt-upgrade/lzt-stats/raw/master/dist/lzt-stats.user.js",
+  "downloadURL": "https://github.com/lzt-upgrade/lzt-stats/raw/master/dist/lzt-stats.user.js",
+  "supportURL": "https://github.com/lzt-upgrade/lzt-stats/issues",
+  "homepageURL": "https://github.com/lzt-upgrade/lzt-stats",
+  "match": [
+    "*://lolz.guru/*",
+    "*://lolz.live/*",
+    "*://zelenka.guru/*",
+    "*://zelenka.market/*",
+    "*://lzt.market/*",
+    "*://lolz.market/*"
+  ],
+  "grant": [
+    "GM_xmlhttpRequest",
+    "GM_info",
+    "GM_addStyle",
+    "GM_setValue",
+    "GM_getValue",
+    "GM_deleteValue",
+    "GM_listValues"
+  ],
+  "connect": ["api-stats.lztup.net"]
+}

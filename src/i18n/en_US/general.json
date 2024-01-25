@@ -1,0 +1,10 @@
+{
+  "tabs": {
+    "per_year": "Per year",
+    "per_month": "Per month",
+    "per_week": "Per week",
+    "per_day": "Per Day",
+    "chat": "Chat",
+    "settings": "Settings"
+  }
+}

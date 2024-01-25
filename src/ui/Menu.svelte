@@ -55,7 +55,7 @@
             <StatCard icon={"far fa-comment-alt-times"} name={"Удалено сообщений"} value={0} graphValue={0} />
         </div>
     {:else if activeTab === 4}
-        <p>penis</p>
+        <p>11</p>
     {:else if activeTab === 5}
         <p>who</p>
     {/if}
